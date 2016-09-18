@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('user/', 'UserController@show');
+Route::get('user/add', 'UserController@add');
+Route::get('user/edit', 'UserController@edit');

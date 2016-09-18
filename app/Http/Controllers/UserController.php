@@ -16,4 +16,14 @@ class UserController extends Controller
     {
         return view('user/show');
     }
+    
+    public function add()
+    {
+    	echo "hello world";die;
+    }
+    
+    public function edit() 
+    {
+    	echo "Hello world";die;
+    }
 }
