@@ -19,11 +19,6 @@ class UserController extends Controller
     
     public function add()
     {
-    	echo "hello world";die;
-    }
-    
-    public function edit() 
-    {
-    	echo "Hello world";die;
+    	return view("user/add");
     }
 }
