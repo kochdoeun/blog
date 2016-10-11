@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBAddressTable extends Migration
+class CreateBContentTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,15 @@ class CreateBAddressTable extends Migration
      */
     public function up()
     {
-         Schema::create('b_address', function (Blueprint $table) {
-            $table->increments('address_id');
+        Schema::create('b_content', function (Blueprint $table) {
+            $table->increments('bcid');
             $table->string('bcode');
-            $table->string('address');
-            $table->integer('city_id');
-            $table->string('map');
-            $table->string('remark');
+            $table->string('bc_code');
+            $table->string('bc_image');
+            $table->text('content');
+            $table->integer('bc_type');
+            $table->timestamp('bc_last_udt');
             $table->integer('rank');
-            $table->timestamp('last_update');
         });
     }
 
@@ -32,6 +32,6 @@ class CreateBAddressTable extends Migration
      */
     public function down()
     {
-        Schema::drop('b_address');
+        Schema::drop('b_content');
     }
 }
