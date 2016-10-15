@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get( '/','LandingPageController@index');
 
 Route::get('user/', 'UserController@show');
 Route::get('user/add', 'UserController@add');

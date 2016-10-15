@@ -1,4 +1,4 @@
-@extends('layouts.business')
+@extends('layouts.home')
 
 @section('title')
     Business Page
