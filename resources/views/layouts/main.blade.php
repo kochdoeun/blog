@@ -11,7 +11,15 @@
 		/>
 		<title> @yield('title')</title>
 		<link 
+			href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+			rel="stylesheet">
+		<link 
 			href="{{ asset('css/materialize.css') }}" 
+			rel="stylesheet" 
+			type="text/css" 
+		/>
+		<link 
+			href="{{ asset('css/app.css') }}" 
 			rel="stylesheet" 
 			type="text/css" 
 		/>

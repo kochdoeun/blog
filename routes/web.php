@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get( '/','LandingPageController@index');
 
 Route::get( 'bpage/','BusinessPageController@index');
