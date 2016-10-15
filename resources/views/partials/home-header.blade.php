@@ -1,12 +1,11 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">
-		GOONPAGES
-	  </a>
-	  
-	  <ul class="left hide-on-med-and-down">
-        <li><a href="login.html">Login</a></li>
-		<li><a href="register1.html">Add Listing</a></li>
+	  <ul class="left">
+		<li>
+			<h3 class="blue-text text-darken-2" style="margin-top: 9px;">GOONPAGES</h3>
+		</li>
+        <li><a href="login.html">More about GOONPAGES</a></li>
+		<li><a href="register1.html">Contact GOONPAGES</a></li>
       </ul>
 	  
 	  
