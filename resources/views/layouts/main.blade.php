@@ -15,6 +15,11 @@
 			rel="stylesheet" 
 			type="text/css" 
 		/>
+		<link 
+			href="{{ asset('css/app.css') }}" 
+			rel="stylesheet" 
+			type="text/css" 
+		/>
 		@yield('include_css')
 	</head>
 	<body>
