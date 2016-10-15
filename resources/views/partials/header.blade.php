@@ -14,7 +14,7 @@
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-  </nav>
+ </nav>
 
   
    <img src="img/b-banner2.png" alt="Unsplashed background img 1" style="width: 100%; margin-bottom: 10px;">

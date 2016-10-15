@@ -15,7 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('user/', 'UserController@show');
-Route::get('user/add', 'UserController@add');
-
 Route::get( 'bpage/','BusinessPageController@index');
