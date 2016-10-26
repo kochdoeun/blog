@@ -1,35 +1,45 @@
 var Auth = function () {
+	"use strict";
+
 	var _setupFormValidation = function () {
-		alert(1);
-		$("#register-form").validate({
-			rules: {
-				firstname: "required",
-				lastname: "required",
-				email: {
-					required: true,
-					email: true
+		GOONPAGE_VALIDATE.UTIL.formOne();
+	};
+
+	var GOONPAGE_VALIDATE = {};
+	GOONPAGE_VALIDATE.UTIL = {
+		formOne: function () {
+			$("#register-form-step1").validate({
+				errorClass:'error-class',
+				errorElement: 'span',
+				rules: {
+					listingName: "required",
+					description: "required",
+					keyword: "required",
+					logo: "required",
+					email: {
+						required: true,
+						email: true
+					},
 				},
-				password: {
-					required: true,
-					minlength: 5
+				messages: {
+					listingName: "Please enter name",
+					description: "Please enter description",
+					keyword: "Please enter keyword",
+					logo: "Please enter logo",
+					email: "Please enter email",
 				},
-				agree: "required"
-			},
-			messages: {
-				firstname: "Please enter your firstname",
-				lastname: "Please enter your lastname",
-				password: {
-					required: "Please provide a password",
-					minlength: "Your password must be at least 5 characters long"
+				submitHandler: function () {
+					alert(11);
 				},
-				email: "Please enter a valid email address",
-				agree: "Please accept our policy"
-			},
-			submitHandler: function (form) {
-				form.submit();
-			}
-		});
-	}
+			});
+		},
+		formTwo: function () {
+
+		},
+		formThree: function () {
+
+		},
+	};
 	return {
 		validation: function () {
 			return {
