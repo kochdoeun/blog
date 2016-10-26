@@ -18,29 +18,20 @@ p {
 	padding: 0 5px !important;;
 }
 
-<<<<<<< HEAD
+
 .padding-right0 {padding-right:0;}
 .padding-right10-20 {padding:10px 20px !important;}
 
 
-=======
->>>>>>> 7ccef14c0f5d9a9d05ef91ba3e39f0e1f8c57653
 .button-collapse {
 	color: #26a69a;
 }
 
 .parallax-container {
-<<<<<<< HEAD
   min-height: 550px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
-=======
-	min-height: 500px;
-	line-height: 0;
-	height: auto;
-	color: rgba(255, 255, 255, .9);
->>>>>>> 7ccef14c0f5d9a9d05ef91ba3e39f0e1f8c57653
 }
 
 .parallax-container .section {
@@ -191,7 +182,4 @@ footer.page-footer {
     margin: 0 !important;
     bottom: -5px;
     position: relative;
-=======
-	margin: 0;
->>>>>>> 7ccef14c0f5d9a9d05ef91ba3e39f0e1f8c57653
 }
