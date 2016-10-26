@@ -12,7 +12,12 @@
 		<title> @yield('title')</title>
 		<link 
 			href="https://fonts.googleapis.com/icon?family=Material+Icons" 
-			rel="stylesheet">
+			rel="stylesheet"
+		/>
+		<link 
+			rel="stylesheet" 
+			href="{{ asset('fonts/font-awesome-4.6.3/css/font-awesome.min.css') }}" 
+		/>
 		<link 
 			href="{{ asset('css/materialize.css') }}" 
 			rel="stylesheet" 
@@ -32,7 +37,7 @@
 		<div class="content">
 			@yield('content')
 		</div>
-		<div class="footer">
+		<div class="footer red lighten-3">
 			@yield('footer')
 		</div>
 		<script 

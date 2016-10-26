@@ -1,15 +1,13 @@
-<footer class="page-footer teal">
+
+<div class="row" style="padding-top:15px;">
+	<div class="container">
+		<img src="images/goonpageslogo.png" class="left" style="height: 53px; margin-top: 4px; margin-right:30px;">
+		<h4 class="left white-text">Our mission is to represent, lead and serve the airline industry</h4>
+	</div>
+</div>
+<footer class="page-footer">
+
     <div class="container">
-	
-		<div class="row">
-			<div class="col s12 m12">
-			  <h5 class="white-text">People Talking About Us</h5>
-			  <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.
-			  We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-			</div>
-		</div>
-		
-		<hr/>
 	
       <div class="row">
         <div class="col l6 s12">

@@ -1,7 +1,7 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">
-		<img src="img/t-logo.png" style="height: 61px;">
+      <a id="logo-container" href="/" class="brand-logo">
+		<img src="images/goonpageslogo.png" style="height: 53px; margin-top: 4px;">
 	  </a>
 	  
       <ul class="right hide-on-med-and-down">
@@ -16,8 +16,6 @@
     </div>
   </nav>
 
-  <div class="row" style="text-align: center; margin:-60px auto 10px 205px;">
+  <div class="row" style="text-align: center; margin:-60px auto 10px 245px;">
 	<img src="img/search-box.png" alt="Unsplashed background img 1">
   </div>
-  
-   <img src="img/b-banner2.png" alt="Unsplashed background img 1" style="width: 100%; margin-bottom: 10px;">

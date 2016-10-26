@@ -12,6 +12,9 @@
 */
 
 Route::get( '/','LandingPageController@index');
+Route::get( 'about-goonpages/','LandingPageController@about');
+
+Route::get( 'Searching/','SearchController@index');
 
 Route::get('user/', 'UserController@show');
 Route::get('user/add', 'UserController@add');

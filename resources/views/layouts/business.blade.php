@@ -13,9 +13,9 @@
 @endsection
 
 @section('content')
-   <div class="container">
-   		@yield('include_content')
-   </div>
+   	
+	@yield('include_content')
+	
 @endsection
 @section('footer')
     @include('partials.footer')
