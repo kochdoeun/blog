@@ -7,61 +7,73 @@
  */
 
 nav ul a, nav .brand-logo {
-  color: #444;
+	color: #444;
 }
 
 p {
-  line-height: 2rem;
+	line-height: 2rem;
 }
 
-
-.grid-padd5{
+.grid-padd5 {
 	padding: 0 5px !important;;
 }
 
+<<<<<<< HEAD
 .padding-right0 {padding-right:0;}
 .padding-right10-20 {padding:10px 20px !important;}
 
 
+=======
+>>>>>>> 7ccef14c0f5d9a9d05ef91ba3e39f0e1f8c57653
 .button-collapse {
-  color: #26a69a;
+	color: #26a69a;
 }
 
 .parallax-container {
+<<<<<<< HEAD
   min-height: 550px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-  
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+=======
+	min-height: 500px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255, 255, 255, .9);
+>>>>>>> 7ccef14c0f5d9a9d05ef91ba3e39f0e1f8c57653
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+.parallax-container .section {
+	width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#index-banner .section {
+		top: 0;
+	}
 }
 
 .icon-block {
-  padding: 0 15px;
+	padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+	font-size: inherit;
 }
 
 footer.page-footer {
+<<<<<<< HEAD
   margin: 0;
 }
 
@@ -179,4 +191,7 @@ footer.page-footer {
     margin: 0 !important;
     bottom: -5px;
     position: relative;
+=======
+	margin: 0;
+>>>>>>> 7ccef14c0f5d9a9d05ef91ba3e39f0e1f8c57653
 }

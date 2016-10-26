@@ -14,7 +14,7 @@
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-  </nav>
+ </nav>
 
   <div class="row" style="text-align: center; margin:-60px auto 10px 245px;">
 	<img src="img/search-box.png" alt="Unsplashed background img 1">

@@ -16,7 +16,12 @@ Route::get( 'about-goonpages/','LandingPageController@about');
 
 Route::get( 'Searching/','SearchController@index');
 
-Route::get('user/', 'UserController@show');
-Route::get('user/add', 'UserController@add');
-
 Route::get( 'bpage/','BusinessPageController@index');
+
+Route::get('login/','AuthController@showLogin');
+Route::get('register/','AuthController@showRegister');
+
+Route::group(['middleware' => 'userAuth'], function () {
+    Route::get('userProfile','AuthController@userProfile');
+    Route::get('logout','AuthController@logout');
+});
