@@ -6,6 +6,9 @@
 
 @section('include_content')
 
+<img src="img/b-banner2.png" alt="Unsplashed background img 1" style="width: 100%; margin-bottom: 10px;">
+
+<div class="container">
 
 	<div class="row" style="margin-top: -190px;    z-index: 9999; position: relative;">
 		<span class="col s3">
@@ -19,7 +22,7 @@
 
 
 	<div class="row">
-		<ul id="dropdown1" class="dropdown-content">
+		<ul id="dropdown1" class="dropdown-content indigo lighten-5">
 		  <li><a href="#!">Add new Room & Rate</a></li>
 		  <li><a href="#!">Add Business Products</a></li>
 		  <li class="divider"></li>
@@ -48,15 +51,14 @@
 	
 	
 	<div class="row">
-		<div class="col s3">
+		<div class="col s12 m3">
 			<ul class="collection">
 				<li class="collection-item avatar">
-				  <img src="images/yuna.jpg" alt="" class="circle">
+				  <i class="material-icons circle">contact_phone</i>
 				  <span class="title">PHONE NUMBER</span>
 				  <p> 855 703 136 38 <br>
 					 855 703 166 98
 				  </p>
-				  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
 				</li>
 				<li class="collection-item avatar">
 				  <i class="material-icons circle"></i>
@@ -82,50 +84,27 @@
 		
 		
 		
-		<div class="col s6">
+		<div class="col s12 m5">
 			<div class="row">
 			 
+			 
 				<form class="col s12">
-					<div class="row">
-						<div class="input-field col s12">
-							<select>
-							  <option value="" disabled selected>Choose your option</option>
-							  <option value="1">Event</option>
-							  <option value="2">Promotion</option>
-							  <option value="3">Post</option>
-							</select>
-							<label>Materialize Select</label>
-						</div>
-					</div>
-					<div class="row" style="margin-top: 20px;">
-						<div class="file-field input-field">
-						  <div class="btn">
-							<span>File</span>
-							<input type="file" multiple>
-						  </div>
-						  <div class="file-path-wrapper">
-							<input class="file-path validate" type="text" placeholder="Upload one or more files">
-						  </div>
-						</div>
-					</div>
 					
-					<div class="row">
-						<div class="input-field col s12">
-						  <i class="material-icons prefix">mode_edit</i>
-						  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-						  <label for="icon_prefix2">First Name</label>
-						</div>
-					  </div>
-					  
-					<button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+					<div style="border-top: 1px solid #d9d1d1; background: #fcfbfd; padding-top:2px;">
+						<span class="grey-text"><i class="fa fa-file-image-o fa-lg" aria-hidden="true"></i> Photos </span> |
+						<span class="grey-text"><i class="fa fa-camera-retro fa-lg" aria-hidden="true"></i> Camara</span>
+						<textarea class="materialize-textarea text-post" placeholder="what's your company have?"></textarea>	
+					</div>
+					<button class="btn waves-effect waves-light" type="submit" name="action">Submit
 						<i class="material-icons right">send</i>
-					  </button>
-					  
+					</button>
+					
 				</form>
+				
 			</div>
 			
 			
-			<div class="row">
+			<div class="row" style="margin-top:100px;">
 				<div class="col s12">
 				  <div class="card">
 					<div class="card-content">
@@ -180,23 +159,59 @@
 			
 		</div>
 		
-		<div class="col s3">
+		
+		
+		
+		
+		
+		
+		
+		<div class="col s12 m4">
 			<div class="row">
+			
+				
+				<div class="col s12 m12">
+					<div class="card-panel teal">
+					  <span class="white-text">Community Organization in Phnom Penh, Cambodia</span>
+					</div>
+				</div>
+							
+				
+			
 				<div class="col s12">
 				  <div class="card">
+					<div class="card-content grey padding-right10-20">
+					  <p>ABOUT <i class="fa fa-pencil-square-o right" aria-hidden="true"></i></p>
+					</div>
 					<div class="card-content">
-					  <p>I am a very simple card. I am good at containing small bits of information.
-					  I am convenient because I require little markup to use effectively.</p>
+					  <p class="grey-text darken-4"><i class="fa fa-location-arrow" aria-hidden="true"></i> No.150, st 2004, Teklark2, Tourl kok, Phnom Penh, Cambodia</p>
+					  <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
+					  <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
+					  <p class="grey-text darken-4"><i class="fa fa-globe" aria-hidden="true"></i> www.aseapages.com</p>
 					</div>
-					<div class="card-image">
-					  <img src="http://materializecss.com/images/yuna.jpg">
-					  <span class="card-title">Card Title</span>
-					</div>
-					<div class="card-action">
-					  <a href="#">This is a link</a>
-					</div>
+					
 				  </div>
 				</div>
+				
+				
+				
+				<div class="col s12">
+				  <div class="card">
+					<div class="card-content grey padding-right10-20">
+					  <p>PHOTO GALLARY</p>
+					</div>
+					<div class="card-content">
+					  <p class="grey-text darken-4"><i class="fa fa-location-arrow" aria-hidden="true"></i> No.150, st 2004, Teklark2, Tourl kok, Phnom Penh, Cambodia</p>
+					  <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
+					  <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
+					  <p class="grey-text darken-4"><i class="fa fa-globe" aria-hidden="true"></i> www.aseapages.com</p>
+					</div>
+					
+				  </div>
+				</div>
+				
+				
+				
 				
 				
 				<div class="col s12">
@@ -246,7 +261,7 @@
 	</div>
 	
 
-	
+</div>	
 	
 	
 	
