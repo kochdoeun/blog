@@ -10,7 +10,7 @@
 
 <div class="container">
 
-	<div class="row" style="margin-top: -190px;    z-index: 9999; position: relative;">
+	<div class="row" style="margin-top: -190px;    z-index: 9; position: relative;">
 		<span class="col s3">
 			<img src="img/t-logo.png" alt=""/>
 		</span>
@@ -63,7 +63,7 @@
 				<div class="card">
 					<div class="card-action padding-right10-20" style="border-bottom:1px inset rgba(222, 222, 230, 0.39);">
 					  <a href="#">ABOUT</a>
-					   <i class="fa fa-pencil-square-o right" aria-hidden="true"></i>
+					   <i onclick="$('#udt-modal-about').openModal();" class="fa fa-pencil-square-o right" aria-hidden="true"></i>
 					</div>
 					<div class="card-content">
 						<p class="grey-text darken-4"><i class="fa fa-location-arrow" aria-hidden="true"></i> Phnom Penh, Cambodia</p>
@@ -77,7 +77,132 @@
 					  <span class="card-title">CAMBODIA BEACH</span>
 					</div>
 					
-				  </div>
+					<!-- Modal Structure -->
+					<div id="udt-modal-about" class="modal" style="max-height:80%;">
+						<div class="udt-modal-header">
+							<span>EDIT YOUR DETAIL</span>
+							<i class="fa fa-times right" aria-hidden="true"></i>
+						</div>
+						
+						<ul class="udt-modal-nav">
+							<li><a>GENERAL</a></li>
+							<li><a>CONTACT</a></li>
+							<li><a>LOCATION</a></li>
+							<li><a>HOUR</a></li>
+						</ul>
+						
+						<div class="udt-modal-header-sub">
+							GENERAL
+						</div>
+						<div class="modal-content" style="height: 450px;">
+							<!-- Update Profile Info -->
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="Your listing name" id="listingName" type="text" class="validate">
+								  <label for="listingName">Listing Name</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="file-field input-field col s12">
+									<div class="btn">
+										<span>File</span>
+										<input type="file" id="logo">
+									</div>
+									<div class="file-path-wrapper">
+										<input class="file-path validate" type="text" placeholder="Upload your logo">
+									</div>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="write down about ur business" id="Description" type="text" class="validate">
+								  <label for="Description">Description</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="Listing category" id="category" type="text" class="validate">
+								  <label for="category">Listing category</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="Visitors can filter their search by the amenities too, so make sure you include all the relevant ones." id="tag" type="text" class="validate">
+								  <label for="tag">Listing tags (optional)</label>
+								</div>
+							</div>
+							
+							
+							<h5>2. Contact Information</h5>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="e.g +855 70-313-638" id="bphone" type="text" class="validate">
+								  <label for="bphone">Phone (optional)</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="e.g aseapages.com, Phnom Penh" id="website" type="text" class="validate">
+								  <label for="website">Website (optional)</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="e.g @youwebsite" id="email" type="text" class="validate">
+								  <label for="email">E-mail Address</label>
+								</div>
+							</div>
+							
+							
+							<h5>3. Listing on Aseapages</h5>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="e.g coffee shop, hotel, guesthouse" id="Keyword" type="text" class="validate">
+								  <label for="Keyword">Keyword</label>
+								</div>
+							</div>
+							
+							<h5>4. Address information</h5>		
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="Your listing name" id="listingName" type="text" class="validate">
+								  <label for="listingName">Country</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="write down about ur business" id="Description" type="text" class="validate">
+								  <label for="Description">State</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="Listing category" id="category" type="text" class="validate">
+								  <label for="category">City</label>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="input-field col s12">
+								  <input placeholder="Visitors can filter their search by the amenities too, so make sure you include all the relevant ones." id="tag" type="text" class="validate">
+								  <label for="tag">Map (optional)</label>
+								</div>
+							</div>
+							<!-- /Update Profile Info -->
+						</div>
+					</div>
+				
+				</div>
 				
 				
 				

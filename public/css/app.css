@@ -175,6 +175,36 @@ footer.page-footer {
 }
 
 
+.udt-modal-header{
+	padding:10px 15px 8px 15px;
+	border-bottom:1px solid grey;
+}
+
+.udt-modal-nav{
+	background:red;
+	margin: 0;
+}
+
+.udt-modal-header-sub{
+	padding:5px 15px;
+	float: left;
+    width: 100%;
+	border-bottom:1px solid grey;
+}
+
+
+.udt-modal-nav li{ display: inline;}
+
+.udt-modal-nav li a{ 
+	display: inline;
+	padding: 5px 0;
+	text-align: center;
+	width:25%;
+	float: left;
+    background: red;
+	cursor: pointer;
+}
+
 
 .text-post{
 	border-top: 1px solid #d8d3d3 !important;
