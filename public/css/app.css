@@ -1,11 +1,28 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+.udt-logo {
+	float: left;
+    width: 175px;
+}
 
+.udt-logo a img {
+	height: 45px;
+    margin-top: 10px;
+    width: 100%;
+}
+ 
+ 
+ .udt-top-search {
+	width: 600px;
+	float: left;
+	margin-left:15px;
+ }
+ 
+ 
+ .udt-top-search input{
+	border: 3px solid grey;
+    border-radius: 9px;
+    height: 37px;
+ }
+ 
 nav ul a, nav .brand-logo {
 	color: #444;
 }
@@ -181,8 +198,9 @@ footer.page-footer {
 }
 
 .udt-modal-nav{
-	background:red;
 	margin: 0;
+	float: left;
+    width: 100%;
 }
 
 .udt-modal-header-sub{
@@ -201,7 +219,7 @@ footer.page-footer {
 	text-align: center;
 	width:25%;
 	float: left;
-    background: red;
+    background: #f3f0f0;
 	cursor: pointer;
 }
 

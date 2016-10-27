@@ -1,21 +1,29 @@
-  <nav class="white" role="navigation">
+  <nav class="white" role="navigation" style="position: fixed; top: 0; z-index: 2;">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="/" class="brand-logo">
-		<img src="images/goonpageslogo.png" style="height: 53px; margin-top: 4px;">
-	  </a>
+		<div class="udt-logo">
+			<a href="/"><img src="images/goonpageslogo1.png"></a>
+		</div>
+		
+		<div class="udt-top-search">
+			<input type="text"/>
+		</div>
 	  
       <ul class="right hide-on-med-and-down">
-        <li><a href="login.html">Login</a></li>
-		<li><a href="register1.html">Add Listing</a></li>
+        <li><a href="login.html"><i class="fa fa-lock" aria-hidden="true"></i> myPAGES</a></li>
+		<li><a href="register1.html"><i class="fa fa-book" aria-hidden="true"></i> Add Listing</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#"><img src="images/goonpageslogo1.png" style="height: 45px; margin-top: 8px; width: 225px;"></a></li>
+		<li><a href="#">Navbar Link</a></li>
+		<li><a href="#">Navbar Link</a></li>
+		<li><a href="#">Navbar Link</a></li>
+		<li><a href="#">Navbar Link</a></li>
+		<li><a href="#">Navbar Link</a></li>
+		<li><a href="#">Navbar Link</a></li>
+		<li><a href="#">Navbar Link</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
  </nav>
-
-  <div class="row" style="text-align: center; margin:-60px auto 10px 245px;">
-	<img src="img/search-box.png" alt="Unsplashed background img 1">
-  </div>
+ <div class="nav-wrapper container" style="height:70px;"></div>

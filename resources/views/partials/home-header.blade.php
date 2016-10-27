@@ -1,7 +1,9 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
 		<div id="logo-container" href="#" class="brand-logo">
-			<a href=""><img src="images/goonpageslogo1.png" style="height: 35px;"></a>
+			<div class="udt-logo">
+			<a href=""><img src="images/goonpageslogo1.png"></a>
+			</div>
 			<span class="mn-header">
 				<a class="black-text" href="http://dev.blog.com/about-goonpages">About GOONPAGES</a>
 				<a class="black-text" href="" >Contact GOONPAGES</a>

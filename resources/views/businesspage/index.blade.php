@@ -85,33 +85,21 @@
 						</div>
 						
 						<ul class="udt-modal-nav">
-							<li><a>GENERAL</a></li>
+							<li><a style="border-bottom: 3px solid grey;">GENERAL</a></li>
 							<li><a>CONTACT</a></li>
 							<li><a>LOCATION</a></li>
 							<li><a>HOUR</a></li>
 						</ul>
 						
-						<div class="udt-modal-header-sub">
-							GENERAL
-						</div>
-						<div class="modal-content" style="height: 450px;">
+						<div class="modal-content" style="overflow: auto; height: 520px;">
+							<div class="udt-modal-header-sub">
+								GENERAL
+							</div>
 							<!-- Update Profile Info -->
 							<div class="row">
 								<div class="input-field col s12">
 								  <input placeholder="Your listing name" id="listingName" type="text" class="validate">
 								  <label for="listingName">Listing Name</label>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="file-field input-field col s12">
-									<div class="btn">
-										<span>File</span>
-										<input type="file" id="logo">
-									</div>
-									<div class="file-path-wrapper">
-										<input class="file-path validate" type="text" placeholder="Upload your logo">
-									</div>
 								</div>
 							</div>
 							
@@ -212,11 +200,11 @@
 					  <p>RELATED KEYWORD <i class="fa fa-pencil-square-o right" aria-hidden="true"></i></p>
 					</div>
 					<div class="card-content">
-						<div class="chip"><i class="material-icons">fast_forward</i> Hotel</div>
-						<div class="chip"><i class="material-icons">fast_forward</i> Resturant</div>
-						<div class="chip"><i class="material-icons">fast_forward</i> bar & Pub</div>
-						<div class="chip"><i class="material-icons">fast_forward</i> Phnom Penh Hotel</div>
-						<div class="chip"><i class="material-icons">fast_forward</i> Phnom Penh Hotel</div>
+						<div class="chip"><i class="fa fa-tag" aria-hidden="true"></i> Hotel</div>
+						<div class="chip"><i class="fa fa-tag" aria-hidden="true"></i> Resturant</div>
+						<div class="chip"><i class="fa fa-tag" aria-hidden="true"></i> bar & Pub</div>
+						<div class="chip"><i class="fa fa-tag" aria-hidden="true"></i> Phnom Penh Hotel</div>
+						<div class="chip"><i class="fa fa-tag" aria-hidden="true"></i> Phnom Penh Hotel</div>
 					</div>
 					
 				</div>
