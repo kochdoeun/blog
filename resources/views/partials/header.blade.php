@@ -1,4 +1,4 @@
-  <nav class="white" role="navigation" style="position: fixed; top: 0; z-index: 2;">
+  <nav class="white" role="navigation" style="position: fixed; top: 0; z-index: 10;">
     <div class="nav-wrapper container">
 		<div class="udt-logo">
 			<a href="/"><img src="images/goonpageslogo1.png"></a>
