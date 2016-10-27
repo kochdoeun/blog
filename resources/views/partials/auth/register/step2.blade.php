@@ -1,58 +1,68 @@
-<div id="step2">
-	<form class="col s12">
+<div class="step2">
+	<form
+		class="col s12"
+		id="register-form-step2"
+	>
 
-		<h5>1. Address information</h5>
+		<h5>Address information</h5>
 
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Your listing name"
-					id="listingName"
+					placeholder="Select country"
+					id="country"
 					type="text"
+					name="country"
 				>
-				<label for="listingName">Country</label>
+				<label for="country">Country</label>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="write down about ur business"
-					id="Description"
+					placeholder="Select state"
+					id="state"
 					type="text"
+					name="state"
 				>
-				<label for="Description">State</label>
+				<label for="state">State</label>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Listing category"
-					id="category"
+					placeholder="Select city"
+					id="city"
 					type="text"
+					name="city"
 				>
-				<label for="category">City</label>
+				<label for="city">City</label>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Visitors can filter their search by the amenities too, so make sure you include all the relevant ones."
-					id="tag"
+					placeholder="Select map"
+					id="map"
 					type="text"
 				>
-				<label for="tag">Map (optional)</label>
+				<label for="map">Map (optional)</label>
 			</div>
 		</div>
 
-		<a class="waves-effect waves-light btn">
+		<a
+			class="waves-effect waves-light btn"
+			id="btn-back-step2"
+		>
 			<i class="material-icons left">cloud</i>Back
 		</a>
 		<button
 			class="waves-effect waves-light btn"
 			type="submit"
+			id="btn-step2"
 		>
 			<i class="material-icons right">cloud</i>Next
 		</button>

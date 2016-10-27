@@ -1,18 +1,18 @@
-<div id="step1">
+<div class="step1">
 	<form
 		class="col s12"
 		id="register-form-step1"
 	>
-		<h5>1. Basic information</h5>
+		<h5>Basic information</h5>
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Your listing name"
-					id="listingName"
+					placeholder="Enter your  business name"
+					id="businessName"
 					type="text"
-					name="listingName"
+					name="businessName"
 				>
-				<label for="listingName">Listing Name</label>
+				<label for="businessName">Business Name</label>
 			</div>
 		</div>
 
@@ -20,14 +20,14 @@
 			<div class="file-field input-field col s12">
 				<div class="btn">
 					<span>File</span>
-					<input type="file" id="logo">
+					<input type="file" id="blogo">
 				</div>
 				<div class="file-path-wrapper">
 					<input
 						class="file-path"
 						type="text"
-						placeholder="Upload your logo"
-						name="logo"
+						placeholder="Upload your business logo"
+						name="blogo"
 					>
 				</div>
 			</div>
@@ -36,40 +36,28 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="write down about ur business"
-					id="description"
+					placeholder="Write down about your business"
+					id="businessDescription"
 					type="text"
-					name="description"
+					name="businessDescription"
 				>
-				<label for="Description">Description</label>
+				<label for="businessDescription">Description</label>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Listing category"
-					id="category"
+					placeholder="Page category"
+					id="pageCategory"
 					type="text"
-					name="category"
+					name="pageCategory"
 				>
-				<label for="category">Listing category</label>
+				<label for="pageCategory">Page category</label>
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="input-field col s12">
-				<input
-					placeholder="Visitors can filter their search by the amenities too, so make sure you include all the relevant ones."
-					id="tag"
-					type="text"
-					name="tag"
-				>
-				<label for="tag">Listing tags (optional)</label>
-			</div>
-		</div>
-
-		<h5>2. Contact Information</h5>
+		<h5>Contact Information</h5>
 
 		<div class="row">
 			<div class="input-field col s12">
@@ -87,11 +75,11 @@
 			<div class="input-field col s12">
 				<input
 					placeholder="e.g aseapages.com, Phnom Penh"
-					id="website"
+					id="bwebsite"
 					type="text"
-					name="website"
+					name="bwebsite"
 				>
-				<label for="website">Website (optional)</label>
+				<label for="bwebsite">Website (optional)</label>
 			</div>
 		</div>
 
@@ -99,31 +87,32 @@
 			<div class="input-field col s12">
 				<input
 					placeholder="e.g @youwebsite"
-					id="email"
+					id="bemail"
 					type="text"
-					name="email"
+					name="bemail"
 				>
-				<label for="email">E-mail Address</label>
+				<label for="bemail">E-mail Address</label>
 			</div>
 		</div>
 
-		<h5>3. Listing on Aseapages</h5>
+		<h5>Listing on Goonpages</h5>
 
 		<div class="row">
 			<div class="input-field col s12">
 				<input
 					placeholder="e.g coffee shop, hotel, guesthouse"
-					id="Keyword"
+					id="bkeyword"
 					type="text"
-					name="keyword"
+					name="bkeyword"
 				>
-				<label for="Keyword">Keyword</label>
+				<label for="bkeyword">Keywords</label>
 			</div>
 		</div>
 
 		<button
 			type="submit"
 			class="waves-effect waves-light btn"
+			id="btn-step1"
 		>
 			<i class="material-icons right">cloud</i>Next
 		</button>

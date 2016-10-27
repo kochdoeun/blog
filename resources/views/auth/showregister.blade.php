@@ -2,9 +2,9 @@
 
 @section('include_css')
 	<link
-			href="{{ asset('css/auth.css') }}"
-			rel="stylesheet"
-			type="text/css"
+		href="{{ asset('css/auth.css') }}"
+		rel="stylesheet"
+		type="text/css"
 	/>
 @endsection
 
@@ -14,16 +14,15 @@
 
 @section('content')
 	<div class="container white z-depth-1 register-container">
-		<div class="float white z-depth-1 register-container1">
-			<h5>Have an account?</h5>
-			<hr/>
-			<h6 style="margin: 35px auto 20px;">
-				<a class="red-text" href="{{URL::to('login')}}">Sign in</a>
-				If you don’t have an account you can create one below by entering your email address/username. Your
-				account details will be confirmed via email.
-			</h6>
+		<div id="step1">
+			@include('partials.auth.register.step1')
 		</div>
-		@include('partials.auth.register.step1')
+		<div id="step2" class="hide">
+			@include('partials.auth.register.step2')
+		</div>
+		<div id="step3" class="hide">
+			@include('partials.auth.register.step3')
+		</div>
 	</div>
 @endsection
 
@@ -33,7 +32,7 @@
 
 @section('include_footer_js')
 	<script
-			type="text/javascript"
-			src="{{ asset('js/auth.js') }}"
+		type="text/javascript"
+		src="{{ asset('js/auth.js') }}"
 	></script>
 @endsection
