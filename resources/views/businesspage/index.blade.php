@@ -51,40 +51,59 @@
 	
 	
 	<div class="row">
+	
+	
 		<div class="col s12 m3">
-			<ul class="collection">
-				<li class="collection-item avatar">
-				  <i class="material-icons circle">contact_phone</i>
-				  <span class="title">PHONE NUMBER</span>
-				  <p> 855 703 136 38 <br>
-					 855 703 166 98
-				  </p>
-				</li>
-				<li class="collection-item avatar">
-				  <i class="material-icons circle"></i>
-				  <span class="title">EMAIL ADDRESS</span>
-				  <p>pak.udomkh@gmail.com</p>
-				  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-				</li>
-				<li class="collection-item avatar">
-				  <i class="material-icons circle green">insert_chart</i>
-				  <span class="title">WEBSITE</span>
-				  <p>www.translat.google.com</p>
-				  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-				</li>
-				<li class="collection-item avatar">
-				  <i class="material-icons circle red">play_arrow</i>
-				  <span class="title">ADDRESS</span>
-				  <p>No. 18Eo, St. 468, Toul Tum Poung I, Chamkar Morn, 12310 Phnom Penh</p>
-				  <img class="responsive-img" src="img/map.png" style="width: 100%; margin-top:5px;">
-				  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-				</li>
-			  </ul>
+			<div class="row">
+				<div class="card-panel teal">
+				  <span class="white-text">Community Organization in Phnom Penh, Cambodia</span>
+				</div>
+				
+				
+				<div class="card">
+					<div class="card-action padding-right10-20" style="border-bottom:1px inset rgba(222, 222, 230, 0.39);">
+					  <a href="#">ABOUT</a>
+					   <i class="fa fa-pencil-square-o right" aria-hidden="true"></i>
+					</div>
+					<div class="card-content">
+						<p class="grey-text darken-4"><i class="fa fa-location-arrow" aria-hidden="true"></i> Phnom Penh, Cambodia</p>
+					    <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
+						<p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
+						<p class="grey-text darken-4"><i class="fa fa-envelope-o" aria-hidden="true"></i> sale@aseapages.com</p>
+						<p class="grey-text darken-4"><i class="fa fa-globe" aria-hidden="true"></i> www.aseapages.com</p>
+					</div>
+					<div class="card-image">
+					  <img src="/img/b-map.png">
+					  <span class="card-title">CAMBODIA BEACH</span>
+					</div>
+					
+				  </div>
+				
+				
+				
+				
+				<div class="card">
+					<div class="card-content grey padding-right10-20">
+					  <p>RELATED KEYWORD <i class="fa fa-pencil-square-o right" aria-hidden="true"></i></p>
+					</div>
+					<div class="card-content">
+						<div class="chip"><i class="material-icons">fast_forward</i> Hotel</div>
+						<div class="chip"><i class="material-icons">fast_forward</i> Resturant</div>
+						<div class="chip"><i class="material-icons">fast_forward</i> bar & Pub</div>
+						<div class="chip"><i class="material-icons">fast_forward</i> Phnom Penh Hotel</div>
+						<div class="chip"><i class="material-icons">fast_forward</i> Phnom Penh Hotel</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			
 		</div>
 		
 		
 		
-		<div class="col s12 m5">
+		<div class="col s12 m6">
 			<div class="row">
 			 
 			 
@@ -166,71 +185,107 @@
 		
 		
 		
-		<div class="col s12 m4">
+		<div class="col s12 m3">
 			<div class="row">
 			
-				
-				<div class="col s12 m12">
-					<div class="card-panel teal">
-					  <span class="white-text">Community Organization in Phnom Penh, Cambodia</span>
-					</div>
-				</div>
-							
-				
-			
-				<div class="col s12">
-				  <div class="card">
+				<div class="card">
 					<div class="card-content grey padding-right10-20">
-					  <p>ABOUT <i class="fa fa-pencil-square-o right" aria-hidden="true"></i></p>
+					  <p>BUSINESS BROCHURE</p>
 					</div>
 					<div class="card-content">
-					  <p class="grey-text darken-4"><i class="fa fa-location-arrow" aria-hidden="true"></i> No.150, st 2004, Teklark2, Tourl kok, Phnom Penh, Cambodia</p>
-					  <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
-					  <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
-					  <p class="grey-text darken-4"><i class="fa fa-globe" aria-hidden="true"></i> www.aseapages.com</p>
+					  <img src="/img/p1.jpg" style="width:100%; margin:0"/>
+					  <img src="/img/p2.jpg" style="width:100%; margin:0"/>
+					  <img src="/img/p3.jpg" style="width:100%; margin:0"/>
 					</div>
-					
-				  </div>
 				</div>
 				
-				
-				
-				<div class="col s12">
-				  <div class="card">
+				<div class="card">
 					<div class="card-content grey padding-right10-20">
-					  <p>PHOTO GALLARY</p>
+					  <p>PEOPLE ALSO VIEW</p>
 					</div>
 					<div class="card-content">
-					  <p class="grey-text darken-4"><i class="fa fa-location-arrow" aria-hidden="true"></i> No.150, st 2004, Teklark2, Tourl kok, Phnom Penh, Cambodia</p>
-					  <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
-					  <p class="grey-text darken-4"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +855 703 136 38</p>
-					  <p class="grey-text darken-4"><i class="fa fa-globe" aria-hidden="true"></i> www.aseapages.com</p>
+						<div class="row" style="border-bottom: 1px solid;">
+							<div class="col s4">
+								<img src="/img/baggage-rfid.jpg" style="width:100%"/>
+							</div>
+							<div class="col s8" style="padding:0">
+								<p>World Massage<div style="font-size: 12px; color: gray;">World Massage in Phnom Penh</div></p>
+							</div>							
+						</div>
+						<div class="row" style="border-bottom: 1px solid;">
+							<div class="col s4">
+								<img src="/img/airport-experience.jpg" style="width:100%"/>
+							</div>
+							<div class="col s8" style="padding:0">
+								<p>World Massage<div style="font-size: 12px; color: gray;">World Massage in Phnom Penh</div></p>
+							</div>							
+						</div>
+						<div class="row" style="border-bottom: 1px solid;">
+							<div class="col s4">
+								<img src="/img/1.jpg" style="width:100%"/>
+							</div>
+							<div class="col s8" style="padding:0">
+								<p>World Massage<div style="font-size: 12px; color: gray;">World Massage in Phnom Penh</div></p>
+							</div>							
+						</div>
+						
 					</div>
-					
-				  </div>
 				</div>
 				
 				
 				
 				
+				<div class="card">
+					<div class="card-content grey padding-right10-20">
+					  <p>RELATED KEYWORD</p>
+					</div>
+					<div class="card-content">
+						<div class="row" style="border-bottom: 1px solid;">
+							<div class="col s4">
+								<img src="/img/baggage-rfid.jpg" style="width:100%"/>
+							</div>
+							<div class="col s8" style="padding:0">
+								<p>World Massage<div style="font-size: 12px; color: gray;">World Massage in Phnom Penh</div></p>
+							</div>							
+						</div>
+						<div class="row" style="border-bottom: 1px solid;">
+							<div class="col s4">
+								<img src="/img/airport-experience.jpg" style="width:100%"/>
+							</div>
+							<div class="col s8" style="padding:0">
+								<p>World Massage<div style="font-size: 12px; color: gray;">World Massage in Phnom Penh</div></p>
+							</div>							
+						</div>
+						<div class="row" style="border-bottom: 1px solid;">
+							<div class="col s4">
+								<img src="/img/1.jpg" style="width:100%"/>
+							</div>
+							<div class="col s8" style="padding:0">
+								<p>World Massage<div style="font-size: 12px; color: gray;">World Massage in Phnom Penh</div></p>
+							</div>							
+						</div>
+						
+					</div>
+				</div>
 				
-				<div class="col s12">
-				  <div class="card">
+				
+				
+				<div class="card">
+					<div class="card-action">
+					  <a href="#">PHNOM PENH, CAMBODIA</a>
+					</div>
+					<div class="card-image">
+					  <img src="http://materializecss.com/images/sample-1.jpg">
+					  <span class="card-title">CAMBODIA BEACH</span>
+					</div>
 					<div class="card-content">
 					  <p>I am a very simple card. I am good at containing small bits of information.
 					  I am convenient because I require little markup to use effectively.</p>
 					</div>
-					<div class="card-image">
-					  <img src="http://materializecss.com/images/sample-1.jpg">
-					  <span class="card-title">Card Title</span>
-					</div>
-					<div class="card-action">
-					  <a href="#">This is a link</a>
-					</div>
 				  </div>
 				</div>
 				
-			</div>
+			
 		</div>
 		
 		
