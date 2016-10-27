@@ -306,9 +306,9 @@
 					  <p>BUSINESS BROCHURE</p>
 					</div>
 					<div class="card-content">
-					  <img src="/img/p1.jpg" style="width:100%; margin:0"/>
-					  <img src="/img/p2.jpg" style="width:100%; margin:0"/>
-					  <img src="/img/p3.jpg" style="width:100%; margin:0"/>
+						<img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="/img/p1.jpg" style="margin:-4px 0 2px -3px;"/>
+						<img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="/img/p2.jpg" style="margin:0 0 2px -3px;"/>
+						<img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="/img/p3.jpg" style="margin:0 0 2px -3px;"/>
 					</div>
 				</div>
 				
