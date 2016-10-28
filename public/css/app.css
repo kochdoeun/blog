@@ -231,3 +231,7 @@ footer.page-footer {
     bottom: -5px;
     position: relative;
 }
+
+.udt-about-nav li a {
+	color: white;
+}
