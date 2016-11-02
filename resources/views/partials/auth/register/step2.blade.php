@@ -9,7 +9,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Select country"
 					id="country"
 					type="text"
 					name="country"
@@ -21,7 +20,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Select state"
 					id="state"
 					type="text"
 					name="state"
@@ -33,7 +31,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Select city"
 					id="city"
 					type="text"
 					name="city"
@@ -45,7 +42,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Select map"
 					id="map"
 					type="text"
 				>
