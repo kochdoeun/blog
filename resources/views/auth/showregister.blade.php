@@ -23,6 +23,13 @@
 		<div id="step3" class="hide">
 			@include('partials.auth.register.step3')
 		</div>
+		{{Form::hidden(
+			'url-registration-form',
+			URL::to('register'),
+			array(
+				'id' => 'url-registration-form'
+			)
+		)}}
 	</div>
 @endsection
 

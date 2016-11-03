@@ -8,27 +8,25 @@
 		<div class="row">
 			<div class="input-field col s6">
 				<input
-					placeholder="Enter your first name"
 					id="fname"
 					type="text"
 					name="fname"
 				>
-				<label for="fname">Name</label>
+				<label for="fname">First Name</label>
 			</div>
 			<div class="input-field col s6">
 				<input
-					placeholder="Enter your last name"
 					id="lname"
 					type="text"
 					name="lname"
 				>
+				<label for="lname">Last Name</label>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Enter your phone number"
 					id="userPhone"
 					type="text"
 					name="userPhone"
@@ -40,7 +38,6 @@
 		<div class="row">
 			<div class="input-field col s6">
 				<input
-					placeholder="Enter your email address"
 					id="email"
 					type="text"
 					name="email"
@@ -49,18 +46,17 @@
 			</div>
 			<div class="input-field col s6">
 				<input
-					placeholder="Enter your confirm email address"
 					id="confirmEmail"
 					type="text"
 					name="confirmEmail"
 				>
+				<label for="confirmEmail">Confirm Email</label>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="input-field col s6">
 				<input
-					placeholder="Enter your password"
 					id="password"
 					type="text"
 					name="password"
@@ -69,11 +65,11 @@
 			</div>
 			<div class="input-field col s6">
 				<input
-					placeholder="Enter your confirm password"
 					id="confirmPassword"
 					type="text"
 					name="confirmPassword"
 				>
+				<label for="confirmPassword">Confirm Password</label>
 			</div>
 		</div>
 

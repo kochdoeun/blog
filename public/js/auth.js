@@ -23,7 +23,7 @@ var Auth = function () {
 	GOONPAGE_VALIDATE.UTIL = {
 		formOne: function () {
 			$("#register-form-step1").validate({
-				errorClass:'error-class',
+				errorClass: 'error-class',
 				errorElement: 'span',
 				rules: {
 					businessName: "required",
@@ -47,12 +47,23 @@ var Auth = function () {
 				submitHandler: function () {
 					$("#step1").addClass("hide");
 					$("#step2").removeClass("hide");
+					$.ajax({
+						url: 'http://api.joind.in/v2.1/talks/10889',
+						data: {},
+						error: function () {
+							console.log('An error has occurred');
+						},
+						success: function (data) {
+
+						},
+						type: 'POST'
+					});
 				},
 			});
 		},
 		formTwo: function () {
 			$("#register-form-step2").validate({
-				errorClass:'error-class',
+				errorClass: 'error-class',
 				errorElement: 'span',
 				rules: {
 					country: "required",
@@ -72,7 +83,7 @@ var Auth = function () {
 		},
 		formThree: function () {
 			$("#register-form-step3").validate({
-				errorClass:'error-class',
+				errorClass: 'error-class',
 				errorElement: 'span',
 				rules: {
 					fname: "required",

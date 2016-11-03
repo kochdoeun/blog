@@ -7,7 +7,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Enter your  business name"
 					id="businessName"
 					type="text"
 					name="businessName"
@@ -26,7 +25,6 @@
 					<input
 						class="file-path"
 						type="text"
-						placeholder="Upload your business logo"
 						name="blogo"
 					>
 				</div>
@@ -36,7 +34,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Write down about your business"
 					id="businessDescription"
 					type="text"
 					name="businessDescription"
@@ -48,7 +45,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="Page category"
 					id="pageCategory"
 					type="text"
 					name="pageCategory"
@@ -62,7 +58,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="e.g +855 70-313-638"
 					id="bphone"
 					type="text"
 					name="bphone"
@@ -74,7 +69,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="e.g aseapages.com, Phnom Penh"
 					id="bwebsite"
 					type="text"
 					name="bwebsite"
@@ -86,7 +80,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="e.g @youwebsite"
 					id="bemail"
 					type="text"
 					name="bemail"
@@ -100,7 +93,6 @@
 		<div class="row">
 			<div class="input-field col s12">
 				<input
-					placeholder="e.g coffee shop, hotel, guesthouse"
 					id="bkeyword"
 					type="text"
 					name="bkeyword"
