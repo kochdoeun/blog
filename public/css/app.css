@@ -235,3 +235,12 @@ footer.page-footer {
 .udt-about-nav li a {
 	color: white;
 }
+
+.tabs .tab a {
+    color: #0963a5;
+}
+
+.tabs .tab a.active {
+    color: #c20314;
+    font-weight: 500;
+}

@@ -14,8 +14,8 @@
 	  
 	  
       <ul class="right hide-on-med-and-down">
-        <li><a href="login.html">Login</a></li>
-		<li><a href="register1.html">Add Listing</a></li>
+        <li><a href="login">Login</a></li>
+		<li><a href="register">Add Listing</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -35,8 +35,15 @@
 			<P>Find great places to stay, eat, shop, or visit from local experts.</P>
 			<div class="row center">
 				<div class="search-box">
-					<form action="http://dev.blog.com/Searching">
+					<!--form action="http://dev.blog.com/Searching">
 						<input type="text" class="search-input"/>
+					</form-->
+					<form action="http://dev.blog.com/Searching">
+						<div class="input-field" style="background: white;">
+						  <input id="search" type="search">
+						  <label for="search"><i class="material-icons">search</i></label>
+						  <i class="material-icons">close</i>
+						</div>
 					</form>
 				</div>
 			</div>
@@ -90,7 +97,7 @@
 				<i class="fa fa-film fa-3x white-text"></i>
 				<p class="white-text" style="line-height: 0;">Movie</p>
 			</a>
-			<a class="chip chip-category" href="Searching?">
+			<a class="chip chip-category" href="business-category?">
 				<i class="fa fa-info fa-3x white-text"></i>
 				<p class="white-text" style="line-height: 0;">more</p>
 			</a>

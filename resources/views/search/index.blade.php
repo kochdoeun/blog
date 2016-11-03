@@ -12,6 +12,7 @@
 
 	<div class="row center" style="margin-top: 35px;">
 		<h5>You are searching for "require little markup to use effectively"</h5>
+		<h6>29 BUSINESS ARE FOUND ON GOONPAGES</h6>
 	</div>
 	
 	
@@ -111,13 +112,16 @@
 					<div class="row">
 						<div class="card">
 							<div class="card-content">
-								<h6 class="center">29 BUSINESS ARE FOUND ON GOONPAGES</h6>		
-								<hr/>
-								<div class="center">
-									<a href="">Business Location</a> | 
-									<a href="">Business Products</a>
-								</div>
-								<hr/>
+								
+								<div class="row">
+									  <ul class="tabs" style="border-bottom: 1px rgba(228, 225, 225, 0.47) solid;">
+										<li class="tab col s3"><a class="active" href="#test1">Business</a></li>
+										<li class="tab col s3"><a href="#test2">Products</a></li>
+										<li class="tab col s3"><a href="#test3">Maps</a></li>
+										<li class="tab col s3"><a href="#test4">Images</a></li>
+										<li class="tab col s3"><a href="#test4">Search tools</a></li>
+									  </ul>
+								 </div>
 								
 								
 								<?php for($i=0; $i<12; $i++){ ?>
@@ -237,17 +241,18 @@
 	
 	<div class="row">
 		<div class="col s12">
-			<h2 class="header">Horizontal Card</h2>
+			
 			<div class="card horizontal">
-			  <div class="card-image">
-				<img src="http://lorempixel.com/100/190/nature/6">
-			  </div>
 			  <div class="card-stacked">
 				<div class="card-content">
-				  <p>I am a very simple card. I am good at containing small bits of information.</p>
+				  <h5 class="header center">IS YOUR COMPANY ALREADY LISTED ON ASEAPAGES?</h5>
 				</div>
 				<div class="card-action">
-				  <a href="#">This is a link</a>
+					<p>You have searched and found your company's E*Page on ASEAPAGES. Claim it now and create your company's account. Follow the registration process to enhance your E*Page. Say where your company is located, add the right keywords to figure in the search results, specify how customers can contact you.</p>
+					<h5 class="red-text center">Get started now. It's fast and easy!</h5>
+					<div class="row center">
+						<a class="waves-effect waves-light btn blue darken-4">I WANT TO CREATE MY COMPANY'S FREE ACCOUNT</a>
+					</div>
 				</div>
 			  </div>
 			</div>

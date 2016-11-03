@@ -9,8 +9,8 @@
 		</div>
 	  
       <ul class="right hide-on-med-and-down">
-        <li><a href="login.html"><i class="fa fa-lock" aria-hidden="true"></i> myPAGES</a></li>
-		<li><a href="register1.html"><i class="fa fa-book" aria-hidden="true"></i> Add Listing</a></li>
+        <li><a href="login"><i class="fa fa-lock" aria-hidden="true"></i> myPAGES</a></li>
+		<li><a href="register"><i class="fa fa-book" aria-hidden="true"></i> Add Listing</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -25,5 +25,10 @@
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
+	
+	
+	
+	
  </nav>
  <div class="nav-wrapper container" style="height:70px;"></div>
+ 

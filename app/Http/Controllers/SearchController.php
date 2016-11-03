@@ -10,6 +10,11 @@ class SearchController extends Controller
 	{
 		return view("Search/index");
 	}
+	
+	public function bcategory()
+	{
+		return view("Search/bcategory");
+	}
 }
 
 

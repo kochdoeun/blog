@@ -233,7 +233,7 @@
 					<i class="fa fa-film fa-3x gray-text"></i>
 					<p style="line-height: 0;">Movie</p>
 				</a>
-				<a class="chip-category-circle" href="Searching">
+				<a class="chip-category-circle" href="business-category">
 					<i class="fa fa-info fa-3x gray-text"></i>
 					<p style="line-height: 0;">more</p>
 				</a>

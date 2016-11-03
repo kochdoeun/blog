@@ -37,7 +37,7 @@
 		<div class="content">
 			@yield('content')
 		</div>
-		<div class="footer red lighten-3">
+		<div class="footer blue darken-3">
 			@yield('footer')
 		</div>
 		<script

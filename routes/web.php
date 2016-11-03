@@ -15,6 +15,7 @@ Route::get( '/','LandingPageController@index');
 Route::get( 'about-goonpages/','LandingPageController@about');
 
 Route::get( 'Searching/','SearchController@index');
+Route::get( 'business-category/','SearchController@bcategory');
 
 Route::get( 'bpage/','BusinessPageController@index');
 
